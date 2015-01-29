@@ -1,0 +1,194 @@
+/**
+* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	box-sizing:boarder-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+div {
+    /*border: 1px solid Chocolate;*/
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* end of reset */
+
+body {
+	color: #222222;
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+.masthead {
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	background: url(../images/AlecKrivecImage.jpg) no-repeat center center scroll;
+	/*background-image: url(http://i1062.photobucket.com/albums/t487/pfxmichaelm/potatoes_zpse2263555.jpg);*/
+	padding: 6em;
+}
+.top-navigation {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+.top-navigation > .content {
+    height: 3.75rem;
+}
+.top-navigation .logo {
+    height: 4.375rem;
+    padding-left: 20rem;
+}
+.top-navigation .links {
+    color: #838994;
+    font-size: 1.5rem;
+    margin-top: 1.7rem;
+    text-align: center;    
+}
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 1.563rem;
+    padding-right: 4m;
+}
+.top-navigation .links li.active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: orange;
+}
+.who {
+	text-align: center;
+
+}
+.who h1 {
+	padding-top: 5rem;
+	padding-bottom: 1rem;
+	font-size: 5rem;
+	font-weight: 300;
+	background: -webkit-linear-gradient(#eee, #333);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+.about {
+	height: 45rem;
+	margin-top: 3rem;
+}
+.who h3 {
+	font-size: 2rem;
+	background: -webkit-linear-gradient(#eee, #333);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+.about-left p {
+	margin-top: 2rem;
+	margin-left: 20rem;
+	padding-left: 1rem;
+	max-width: 25rem;
+    width: 20rem;
+    height: 20rem;
+    border: 1px solid #c3c3c3;
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-flow: row wrap; /* Safari 6.1+ */
+    -webkit-align-content: space-around; /* Safari 7.0+ */
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-around;
+}
+.about-right p {
+	margin-top: -13rem;
+	margin-left: 75rem;
+	padding-right: 1rem;
+	max-width: 25rem;
+    width: 20rem;
+    height: 20rem;
+    border: 1px solid #c3c3c3;
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-flow: row wrap; /* Safari 6.1+ */
+    -webkit-align-content: space-around; /* Safari 7.0+ */
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-around;
+}
+.projects {
+	text-align: center;
+}
+.projects h1 {
+	margin-top: 2rem;
+	font-size: 4rem;
+	font-weight: 300;
+	background: -webkit-linear-gradient(#eee, #333);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+
+}
+.web-projects {
+
+}
+.web-projects h4 {
+	margin-top: 1rem;
+	font-size: 2rem;
+	font-weight: 200;
+	background: -webkit-linear-gradient(#eee, #333);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+.web-projects p {
+	margin-top: 2rem;
+}
+.spatial-projects h4 {
+	margin-top: 1rem;
+	font-size: 2rem;
+	font-weight: 200;
+	background: -webkit-linear-gradient(#eee, #333);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
+.spatial-projects {
+
+}
+.social {
+
+}
