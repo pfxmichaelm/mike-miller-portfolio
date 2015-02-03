@@ -116,8 +116,8 @@ body {
 	padding-top: 20rem;
 	padding-bottom: 1rem;
 	font-size: 5em;
-	font-weight: 450;
-	letter-spacing: 0.05em;
+	font-weight: 500;
+	letter-spacing: 0.25em;
 	background: -webkit-linear-gradient(#eee, #333);
   	-webkit-background-clip: text;
   	-webkit-text-fill-color: transparent;
@@ -141,7 +141,8 @@ body {
 	padding: 0 2em 0 2em;
 	max-width: 25em;
 	min-width: 12em;
-	vertical-align: top;	
+	vertical-align: top;
+	text-align: left;	
     /*width: 20em;
     height: 20em;
     border: 1px solid #c3c3c3;
@@ -162,7 +163,7 @@ body {
 	margin-top: 2.5em;
 	padding-bottom: 0.125em;
 	font-size: 3em;
-	font-weight: 300;
+	font-weight: 500;
 	background: -webkit-linear-gradient(#eee, #333);
   	-webkit-background-clip: text;
   	-webkit-text-fill-color: transparent;
@@ -201,4 +202,16 @@ hr {
 }
 a, u {
 	text-decoration: none;
+}
+/* media queries */
+@media only screen and (max-width: 500px) {
+    .top-navigation, .who {
+        font-size: 3em;
+    }
+}
+@media only screen and (max-width: 500px) {
+  footer {
+    padding: 2em 0;
+    /*font-size: 1em;*/
+  }
 }
