@@ -187,6 +187,13 @@ body {
     text-align: center;
 
 }
+.social .content a {
+	color: #222222;
+}
+.social .content a:hover {
+	cursor: pointer;
+    color: orange;
+}
 hr {
     border: 0;
     border-top: 1.0px solid #6C6969;
