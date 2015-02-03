@@ -90,6 +90,7 @@ body {
     font-size: 2.5em; 
     margin-top: 1.5em;
     text-align: center;
+    color: white;
 }
 .top-navigation .links li {
 	color: white;
@@ -99,6 +100,13 @@ body {
 .top-navigation .links li:hover {
     cursor: pointer;
     color: orange;
+}
+.top-navigation .links a {
+	color: white;
+}
+.top-navigation .links a:hover {
+    cursor: pointer;
+    color: orange;	
 }
 .who {
 	text-align: center;
