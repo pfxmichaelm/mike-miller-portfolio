@@ -148,7 +148,8 @@ body {
 .class-content {
 }
 .projects h1 {
-	margin-top: 2em;
+	margin-top: 2.5em;
+	padding-bottom: 0.125em;
 	font-size: 3em;
 	font-weight: 300;
 	background: -webkit-linear-gradient(#eee, #333);
@@ -156,7 +157,7 @@ body {
   	-webkit-text-fill-color: transparent;
 }
 .examples li {
-	width: 33.33%;
+	width: 25.0%;
 	margin-top: 2em;
 	display: inline-block;
 }
@@ -169,19 +170,14 @@ body {
   	-webkit-background-clip: text;
   	-webkit-text-fill-color: transparent;
 }
-.spatial-projects h4 {
-	margin-top: 1em;
-	font-size: 2em;
-	font-weight: 200;
-	background: -webkit-linear-gradient(#CC927A, #CC4A14);
-  	-webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
-}
-
-.spatial-projects {
-
-}
 .social {
-	text-align: center;
+    padding-bottom: 4em;
+    padding-top: 4em;
+    text-align: center;
 
+}
+hr {
+    border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
 }
