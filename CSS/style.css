@@ -22,7 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	box-sizing:boarder-box;
+	box-sizing:border-box;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -56,7 +56,7 @@ body {
 	color: #222222;
 	font-family: 'Roboto', sans-serif;
 	-webkit-font-smoothing: antialiased;
-	background-color: #E8EBFF;
+	background-color: #E8EBFF;	
 }
 .masthead {
 	/*background-size: cover;
@@ -72,7 +72,8 @@ body {
     background-color: #fff;
     position: fixed;
     width: 100%;
-    z-index: 9999;   
+    z-index: 9999;
+
 }
 .top-navigation .content {
     height: 3.75em;
@@ -83,19 +84,17 @@ body {
 	opacity: 0.85;
 	background: url(../images/AlecKrivecImage.jpg) no-repeat center center scroll;
 	/*background-image: url(http://i1062.photobucket.com/albums/t487/pfxmichaelm/potatoes_zpse2263555.jpg);*/
-	padding: 5em;  
+    padding: 5em 0em 5em 0em;
 }
 .top-navigation .links {
-    font-size: 2.5em;
+    font-size: 2.5em; 
     margin-top: 1.5em;
     text-align: center;
-   
 }
 .top-navigation .links li {
 	color: white;
+	padding: 0 2em 0 2em;
     display: inline-block;
-    margin-left: 1.563em;
-    padding-right: 2em;     
 }
 .top-navigation .links li:hover {
     cursor: pointer;
@@ -125,12 +124,16 @@ body {
 .info {
 	height: auto;
 	margin-top: 3em;
+	text-align: center
+
 }
 .info .about  {
 	margin-top: 2em;
-	margin-left: 20em;
-	padding-left: 1em;
+	/*margin-left: 20em;*/
+	padding: 0 2em 0 2em;
 	max-width: 25em;
+	min-width: 12em;
+	vertical-align: top;	
     /*width: 20em;
     height: 20em;
     border: 1px solid #c3c3c3;
@@ -178,6 +181,9 @@ body {
 }
 hr {
     border: 0;
-    border-top: 1px solid #eaebec;
-    margin: 1.313rem 0;
+    border-top: 1.0px solid #6C6969;
+    margin: 0.5rem 0;
+}
+a, u {
+	text-decoration: none;
 }
